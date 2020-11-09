@@ -87,3 +87,27 @@ conda deactivate
 ```
 
 ---
+
+## Deployment of the Documentation Site
+
+### Build and Deploy
+
+to deploy your documentation website, you need to run the following command in the root of this repository:
+
+``` shell
+mkdocs gh-deploy
+```
+
+This command will create a new branch in your repository called `gh-pages` and build your site in it. It will then push the new branch to your remote repository automatically. It will also create a `site` folder in your root directory containing all of your site files. Since this folder is added `.gitignore` file, it won't be committed or pushed to the remote repository.
+
+### Setup GitHub Pages
+
+For the first time, you need to configure the GitHub Pages service on your GitHub repository so it wil automatically build your documentation website whenever you deploy your site. To do this:
+
+1. Go to your repository setting,
+2. got GitHub Pages section,
+3. select `gh-pages` branch,
+4. select `/(root)` location,
+5. click on the `save` button.
+
+The setting page will refresh, and now if you go to the address that is provided at the GitHub Pages section, Wola, here is your documentation! :rocket:
