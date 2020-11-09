@@ -2,6 +2,25 @@ site_name: Spatial Computing Project Template
 
 nav:
   - Home: "index.md"
+  - Planning: "a1_planning.md"
+  - Configuring: "a2_configuring.md"
+  - Massing: "a3_massing.md"
+  - Forming: "a4_forming.md"
+  - About: "about.md"
+  - Index:
+      - Scripts: "index/scripts.md"
+      - Figures: "index/figures.md"
+      - Presentations: "index/presentations.md"
+      - Bibliography: "index/bibliography.md"
+  - Documenting (TBR):
+      - Instructions: "documenting/instructions.md"
+      - Folder Structure: "documenting/folder_structure.md"
+      - Guidelines: "documenting/guidelines.md"
 
 theme:
   name: "material"
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.keys
+  - pymdownx.highlight
