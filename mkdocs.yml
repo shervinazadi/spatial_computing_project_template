@@ -1,0 +1,7 @@
+site_name: Spatial Computing Project Template
+
+nav:
+  - Home: "index.md"
+
+theme:
+  name: "material"
