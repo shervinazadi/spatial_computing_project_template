@@ -447,6 +447,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#deployment-of-the-documentation-site" class="md-nav__link">
+    Deployment of the Documentation Site
+  </a>
+  
+    <nav class="md-nav" aria-label="Deployment of the Documentation Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-and-deploy" class="md-nav__link">
+    Build and Deploy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-github-pages" class="md-nav__link">
+    Setup GitHub Pages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -594,6 +621,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#deployment-of-the-documentation-site" class="md-nav__link">
+    Deployment of the Documentation Site
+  </a>
+  
+    <nav class="md-nav" aria-label="Deployment of the Documentation Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-and-deploy" class="md-nav__link">
+    Build and Deploy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-github-pages" class="md-nav__link">
+    Setup GitHub Pages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -668,6 +722,23 @@
 </code></pre></div>
 
 <hr />
+<h2 id="deployment-of-the-documentation-site">Deployment of the Documentation Site</h2>
+<h3 id="build-and-deploy">Build and Deploy</h3>
+<p>to deploy your documentation website, you need to run the following command in the root of this repository:</p>
+<div class="codehilite"><pre><span></span><code>mkdocs gh-deploy
+</code></pre></div>
+
+<p>This command will create a new branch in your repository called <code>gh-pages</code> and build your site in it. It will then push the new branch to your remote repository automatically. It will also create a <code>site</code> folder in your root directory containing all of your site files. Since this folder is added <code>.gitignore</code> file, it won't be committed or pushed to the remote repository.</p>
+<h3 id="setup-github-pages">Setup GitHub Pages</h3>
+<p>For the first time, you need to configure the GitHub Pages service on your GitHub repository so it wil automatically build your documentation website whenever you deploy your site. To do this:</p>
+<ol>
+<li>Go to your repository setting,</li>
+<li>got GitHub Pages section,</li>
+<li>select <code>gh-pages</code> branch,</li>
+<li>select <code>/(root)</code> location,</li>
+<li>click on the <code>save</code> button.</li>
+</ol>
+<p>The setting page will refresh, and now if you go to the address that is provided at the GitHub Pages section, Wola, here is your documentation! <img alt="🚀" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f680.png" title=":rocket:" /></p>
                 
               
               
