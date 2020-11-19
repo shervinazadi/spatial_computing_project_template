@@ -1,4 +1,4 @@
-name: spatial_computing_docs
+name: sc_docs
 channels:
   - conda-forge
   - defaults
@@ -38,33 +38,33 @@ dependencies:
   - zipp=3.4.0=py_0
   - zlib=1.2.11=h7795811_1010
   - pip:
-    - async-generator==1.10
-    - attrs==20.3.0
-    - bleach==3.2.1
-    - defusedxml==0.6.0
-    - entrypoints==0.3
-    - gitdb==4.0.5
-    - gitpython==3.1.11
-    - ipython-genutils==0.2.0
-    - jsonschema==3.2.0
-    - jupyter-client==6.1.7
-    - jupyter-core==4.6.3
-    - jupyterlab-pygments==0.1.2
-    - mistune==0.8.4
-    - mkdocs-material-extensions==1.0.1
-    - mknotebooks==0.6.2
-    - nbclient==0.5.1
-    - nbconvert==6.0.7
-    - nbformat==5.0.8
-    - nest-asyncio==1.4.2
-    - packaging==20.4
-    - pandocfilters==1.4.3
-    - pyparsing==2.4.7
-    - pyrsistent==0.17.3
-    - python-dateutil==2.8.1
-    - pyzmq==19.0.2
-    - smmap==3.0.4
-    - testpath==0.4.4
-    - traitlets==5.0.5
-    - webencodings==0.5.1
-prefix: /Users/shervinazadi/opt/miniconda3/envs/spatial_computing_docs
+      - async-generator==1.10
+      - attrs==20.3.0
+      - bleach==3.2.1
+      - defusedxml==0.6.0
+      - entrypoints==0.3
+      - gitdb==4.0.5
+      - gitpython==3.1.11
+      - ipython-genutils==0.2.0
+      - jsonschema==3.2.0
+      - jupyter-client==6.1.7
+      - jupyter-core==4.6.3
+      - jupyterlab-pygments==0.1.2
+      - mistune==0.8.4
+      - mkdocs-material-extensions==1.0.1
+      - mknotebooks==0.6.2
+      - nbclient==0.5.1
+      - nbconvert==6.0.7
+      - nbformat==5.0.8
+      - nest-asyncio==1.4.2
+      - packaging==20.4
+      - pandocfilters==1.4.3
+      - pyparsing==2.4.7
+      - pyrsistent==0.17.3
+      - python-dateutil==2.8.1
+      - pyzmq==19.0.2
+      - smmap==3.0.4
+      - testpath==0.4.4
+      - traitlets==5.0.5
+      - webencodings==0.5.1
+prefix: /Users/shervinazadi/opt/miniconda3/envs/sc_docs
