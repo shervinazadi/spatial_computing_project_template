@@ -28,7 +28,7 @@ Now that you have created the appropriate environment, you need to activate the 
 conda activate spatial_computing_docs
 ```
 
-If the command line is now indicating the name of the environment in paranthesis, it means that the environment is activated. Similar to this
+If the command line is now indicating the name of the environment in parenthesis, it means that the environment is activated. Similar to this
 
 ``` shell
 (spatial_computing_docs) {your username}@{your computer name} spatial_computing_project_template %
