@@ -1,0 +1,81 @@
+site_name: topoGenesis
+repo_url: https://github.com/shervinazadi/topogenesis
+repo_name: topoGenesis
+
+nav:
+  - Home: "index.md"
+  - Installation: "installation.md"
+  - Tutorials:
+      - Basic:
+          - Stencils: notebooks/stencil_functionalities.ipynb
+      - Workflows:
+          - Point Cloud Voxelization: notebooks/point_cloud_voxelization.ipynb
+          - Mesh Sampling: notebooks/mesh_sampling.ipynb
+          - Boolean Marching Cubes: notebooks/boolean_marching_cubes.ipynb
+      - Simulations:
+          - Cellular Automata: notebooks/cellular_automata.ipynb
+          - ABM Random Walker: notebooks/random_walker.ipynb
+
+  - API:
+      - Data Structures:
+          - Lattice: api/datastructures/lattice.md
+          - Stencil: api/datastructures/stencil.md
+          - Cloud: api/datastructures/cloud.md
+      - "Geometry": "api/geometry.md"
+  - About:
+      - "License": "license.md"
+      - "Citing": "citing.md"
+
+theme:
+  name: "material"
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: default
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    - search.suggest
+    - navigation.sections
+
+plugins:
+  - search:
+      prebuild_index: true
+  - mknotebooks:
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
+      # write_markdown: true
+  - mkdocstrings:
+      watch:
+        - topogenesis
+      handlers:
+        python:
+          selection:
+            filters:
+              - "!^_" # exlude all members starting with _
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

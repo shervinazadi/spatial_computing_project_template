@@ -1,0 +1,24 @@
+name: scds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - mkdocs
+  - mkdocs-material
+  - networkx
+  - numpy
+  - scipy
+  - pandas
+  - pip
+  - python=3.8.5
+  - rtree
+  - trimesh
+  - pip:
+      - ipyvtk-simple
+      - itkwidgets
+      - lbt-ladybug
+      - mkdocs-material-extensions
+      - mknotebooks
+      - pyvista
+prefix: /Users/shervinazadi/opt/miniconda3/envs/scds
