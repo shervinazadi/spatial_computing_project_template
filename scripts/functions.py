@@ -27,3 +27,10 @@ def interpolate(info_lowres, base_highres):
     info_highres *= base_highres
 
     return info_highres
+
+def squareness(square_weight, free_neighs, a_eval):
+    free_neighs_count = []
+    for free_neigh in free_neighs:
+        free_neighs_count.append(free_neighs.count(free_neigh))
+    a_weighted_square = np.array(free_neighs_count) ** square_weight
+    a_eval *= a_weighted_square
