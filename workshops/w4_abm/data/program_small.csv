@@ -1,0 +1,4 @@
+space_name,space_id,str_acc,sun_acc
+lobby, 0, 1.0, 0.0
+roof_garden, 1, 0.0, 1.0
+workshop, 2, 0.5, 0.5

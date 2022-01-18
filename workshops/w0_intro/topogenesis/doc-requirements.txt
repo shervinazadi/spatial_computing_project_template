@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+pyvista
+mkdocs-material
+mkdocstrings
+mknotebooks
